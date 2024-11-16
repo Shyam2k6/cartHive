@@ -119,3 +119,9 @@ button:hover {
   transition: 0.3s;
   background: #e3fafc;
 }
+@media (max-width: 480px) {
+  .home {
+    grid-template-columns: 150px 150px;
+    grid-template-rows: auto auto;
+  }
+}
