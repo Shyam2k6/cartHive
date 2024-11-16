@@ -99,7 +99,6 @@ button:hover {
 .myCart,
 .title {
   width: 100%;
-
   font-size: 17px;
   position: absolute;
   top: 0;
@@ -120,8 +119,26 @@ button:hover {
   background: #e3fafc;
 }
 @media (max-width: 480px) {
+  .app {
+    overflow: hidden;
+  }
   .home {
     grid-template-columns: 150px 150px;
     grid-template-rows: auto auto;
+    gap: 25px;
+    margin-top: 0px;
+  }
+  img {
+    width: 150px;
+    height: 110px;
+  }
+  .card {
+    padding: 10px;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .description {
+    font-size: 11.5px;
   }
 }
